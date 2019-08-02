@@ -1,0 +1,33 @@
+                                        \\\\\\\CPU 8 bits by Sidnei Santiago ///////
+
+
+
+CONJUNTO DE INSTRUÇÕES FEITA PELA CPU:
+
+0x9 = Soma de 2 valores;
+0xD = Ler dados da memória;
+0xB = Copiar registrador;
+0xE = Armazenar valor na memória;
+0xA = "stall" limpa memória e desabilita a CPU. 
+
+
+Os códigos: 1D, 2D, 3D E 4D são referentes a leitura de dados da Memória de Dados
+e armazenamento do banco de registradores, cumprindo ainstrução "0xD".
+
+
+O banco de registradores foi projetado para de forma automática cumprir
+a instrução "0XB", pois o primeiro valor é armazenado no R0 e a cada entrada
+de dados, o valor que tava no R0 é deslocado para os registradores - R0, R1...
+e o novo valor é armazenado no R0.
+
+
+O código 39 faz de forma simultânea duas instruções: "0x9", pois soma os valores
+de R0 e R3, e a instrução "0xE", pois na CPU, os dados são registrados em 2 displays
+hexadecimal. Para leitura e soma de dados dos outros registradores basta alterar o
+bit MSB do codigo na Memória de Programa Com os 4 bits referentes ao endereço de Rx.
+
+
+E por fim a instrução "0XA" é efetuado limpando a memoria e desabilitando o computador.
+
+
+
