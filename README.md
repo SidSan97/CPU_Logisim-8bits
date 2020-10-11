@@ -5,7 +5,7 @@
 
 ![CPU COMPLETA](https://github.com/SidSan97/CPU_Logisim-8bits/blob/master/CPU/assets/cpu%20completa.png)
 
-A CPU, feita para a disciplina Projetos de Circuitos Lógicos, UFBA - 2018.2, consiste na execução das seguintes instruções:
+#### A CPU, feita para a disciplina Projetos de Circuitos Lógicos, UFBA - 2018.2, consiste na execução das seguintes instruções:
 
 
 "0xD" - Ler da Memoria de dados
