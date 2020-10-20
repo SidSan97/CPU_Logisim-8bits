@@ -17,3 +17,8 @@
 "0xE" - Armazena o valor da soma
 
 "0XA" - Limpa memória e desabilita o CPU
+
+
+#### .Parte interna da CPU
+
+![CPU COMPLETA](https://github.com/SidSan97/CPU_Logisim-8bits/blob/master/CPU/assets/cpu%20interna.png)
